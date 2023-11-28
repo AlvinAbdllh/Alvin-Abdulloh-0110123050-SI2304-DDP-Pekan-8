@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        header, footer{
+            background-color: antiquewhite;
+            height: 100px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .container{
+            margin: 5px;
+            display: flex;
+            height: 77vh;
+            
+        }
+        .container aside{
+            background-color: aqua;
+            width: 30%;
+            padding: 10px;
+            margin: 5px;
+           
+        }
+
+        .container article{
+            background-color:aquamarine;
+            width: 70%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+           justify-content: flex-end;
+           padding: 10px;
+           margin: 5px;
+        }
+
+        img{
+            width: 20%;
+            display:inline;
+            justify-content:space-between;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+  <header>header</header>  
+  <div class="container">
+    <aside>aside</aside>
+    <article>article <br>
+        <div class="img">
+            <img src="https://nurulfikri.ac.id/wp-content/uploads/2020/08/logo-sttnf-12-2048x1486.jpg" alt="">
+            <img src="https://nurulfikri.ac.id/wp-content/uploads/2020/08/logo-sttnf-12-2048x1486.jpg" alt="">
+            <img src="https://nurulfikri.ac.id/wp-content/uploads/2020/08/logo-sttnf-12-2048x1486.jpg" alt="">
+        </div>
+    </article>
+  </div>
+  <footer>footer</footer>
+</body>
+</html>
